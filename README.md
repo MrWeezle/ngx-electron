@@ -79,7 +79,7 @@ The `ElectronService` is exposing all API's accessible from within Electron's re
 
   * `desktopCapturer: Electron.DesktopCapturer` - Electron's desktop capturing API
   * `ipcRenderer: Electron.IpcRenderer` - Electron IpcRenderer
-  * `remote: Electron.Remote` - Electron Remote capabilities
+  * `app: Electron.App` - Electron App capabilities
   * `webFrame: Electron.WebFrame` - Electron WebFrame
   * `clipboard: Electron.Clipboard` - Clipboard API
   * `crashReporter: Electron.CrashReporter` - Electron's CrashReporter
