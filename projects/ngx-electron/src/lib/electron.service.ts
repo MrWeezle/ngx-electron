@@ -56,8 +56,8 @@ export class ElectronService {
         return this.electron ? this.electron.ipcRenderer : null;
     }
 
-    public get remote(): Electron.Remote {
-        return this.electron ? this.electron.remote : null;
+    public get app(): Electron.App {
+        return this.electron ? this.electron.app : null;
     }
 
     public get webFrame(): Electron.WebFrame {
