@@ -87,4 +87,8 @@ export class ElectronService {
     public get shell(): Electron.Shell {
         return this.electron ? this.electron.shell : null;
     }
+    
+    public get app(): Electron.App {
+        return this.electorn ? this.electron.app : null;
+    }
 }
